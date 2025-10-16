@@ -1,0 +1,12 @@
+/.DS_Store
+/Part2/data/
+/Part2/images/
+/Part1/csv_dir/
+__pycache__/
+*.pyc
+.idea/
+*.iml
+.DS_Store
+.venv/
+wandb/
+runs/
