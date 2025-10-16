@@ -12,3 +12,4 @@ wandb/
 runs/
 *.csv
 *.pth
+/Dockerfile
