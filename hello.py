@@ -8,3 +8,4 @@ a[0,0] = 999
 print("a:\n", a)
 print("b:\n", b)          # 같이 바뀜
 print("c:\n", c)          # 안 바뀜 (복사본)
+print('hello')
