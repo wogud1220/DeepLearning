@@ -10,4 +10,4 @@ print("b:\n", b)          # 같이 바뀜
 print("c:\n", c)          # 안 바뀜 (복사본)
 
 torch.permute(a, (0, 2, 1))
-print('그냥 서명')
+print('그냥 서명swjaehyeong')
