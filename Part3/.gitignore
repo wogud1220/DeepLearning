@@ -1,0 +1,11 @@
+.venv
+.vscode
+bpe
+Clean_data
+conversation
+model
+ocr_md_output
+output_md
+review-sentiment-analysis
+summarization
+.env
