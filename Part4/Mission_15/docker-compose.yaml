@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  trainer:
+    image: wogud1220/researcher1:1.0
+    container_name: trainer
+    volumes:
+      - output-volume:/app/output
+
+  researcher:
+    build: ./r2
+    container_name: researcher
+    depends_on:
+      - trainer
+    volumes:
+      - output-volume:/app/output
+
+volumes:
+  output-volume:
